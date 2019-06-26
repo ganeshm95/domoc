@@ -1,0 +1,126 @@
+Q1,3`
+->  one multinational company have 12 different offices in world.
+    company to offices relationship is one  to many,one company 
+    have  multiple offices.in  one office number of employees
+    ie.one to many relationship bitween office and employee and
+    employee can access all company  corporate customer accounting 
+    information. company gives access to all employee to see
+    customers accounting information.
+
+
+Q2
+
+  Functional requirement:-
+ 
+  1) customer details(ie.id, name)
+
+  2) office details(how many employees in perticular
+        office working)
+  3) employee details
+
+  Non-functional requirement:-
+  
+  1) performance(ie time to access to data of customer)
+  
+  2) scallability
+
+  3) security of data
+   
+  4) network traffic in  time of accessing the data 
+
+ 
+
+              github command
+
+$ git init
+Initialized empty Git repository in C:/Users/dac/Desktop/rollno-1159  ganesh mote/.git/
+
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        company .txt
+        customer.js
+        git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+$ git add .
+
+
+
+$ git commit -m "ganesh"
+[master (root-commit) 7a88b6e] ganesh
+ Committer: dac <dac@dypm.org>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 80 insertions(+)
+ create mode 100644 company .txt
+ create mode 100644 customer.js
+ create mode 100644 git.txt
+
+
+$ git remote add origin https://github.com/ganeshm95/Mcompany.git
+
+
+$ git remote -v
+origin  https://github.com/ganeshm95/Mcompany.git (fetch)
+origin  https://github.com/ganeshm95/Mcompany.git (push)
+
+
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.28 KiB | 1.28 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/ganeshm95/Mcompany.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+
+$ git clone https://github.com/ganeshm95/Mcompany.git
+Cloning into 'Mcompany'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+
+              express.js
+
+
+
+C:\Users\dac>npm install express --save
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\dac\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\dac\package.json'
+npm WARN dac No description
+
+
+             microservice project run on node.js
+
+$ node customer.js
+Example app listening at http://localhost:8086 :: 8086
+
+
+http://localhost:8086/customer
+
